@@ -1,0 +1,11 @@
+Brothers in the Bar
+
+Explanations:
+
+First I set a counter named "rounds" to 0.
+Then I validate the input array according to the given constraints.
+Function "equalSubsequences" takes the glasses array as an argument, loops through it,
+checks is every three consecutive elements from the start are equal until it reaches the array.length-3 element,
+and removes such elements. The function is called until the array has at least one element left.
+Function "result" checks the counter - if it is 0, then no consecutive equal elements were found and prints message; if the counter is more than
+zero, prints the value of the counter.
